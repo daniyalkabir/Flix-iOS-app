@@ -1,39 +1,4 @@
-# Flix
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-
-## Flix Part 2
-
-### User Stories
-
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
-
-#### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
-
-### App Walkthrough GIF
-
-<img src="https://i.imgur.com/zTYDowf.gif" width=250><br>
-Movie Detail<br>
-
-<img src="https://i.imgur.com/pmomtNq.gif" width=250><br>
-Poster Wall<br>
-
-<img src="https://i.imgur.com/i4oSK0r.gif" width=250><br>
-Poster Wall to Movie Detail<br>
-
-<img src="https://i.imgur.com/T6R4E9W.gif" width=250><br>
-Trailer WebView
-
-### Notes
-
-- Spent a long time of finding how to fully fill imageView into GridCell. Found at GridCell Attribute->View->Content_Mode
-- Before using WK WebView, should add "Webkit framework" at Project's Target page, othewise error occurs. 
-
----
 
 ## Flix Part 1
 
